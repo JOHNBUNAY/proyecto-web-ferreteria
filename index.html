@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería Construmetal - Proyecto Final</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="contenedor-dashboard">
+        <aside class="sidebar">
+            <h2>Categorías</h2>
+            <nav>
+                <ul>
+                    <li><button class="btn-categoria" data-cat="todas">Todas</button></li>
+                    <li><button class="btn-categoria" data-cat="herramientas">Herramientas</button></li>
+                    <li><button class="btn-categoria" data-cat="construccion">Construcción</button></li>
+                    <li><button class="btn-categoria" data-cat="plomeria">Plomería</button></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <header class="header">
+            <h1>Ferretería Construmetal</h1>
+            <div class="carrito-status">
+                <span>🛒 Carrito: </span>
+                <span id="valor">0</span>
+            </div>
+        </header>
+
+        <main class="contenido">
+            <div class="seccion-intro">
+                <h2>Catálogo de Productos</h2>
+                <p>Bienvenido a nuestra tienda en línea. Selecciona tus materiales.</p>
+                <button id="btnCargar">Cargar Catálogo</button>
+            </div>
+
+            <div id="listaUsuarios" class="grid-usuarios">
+                </div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
