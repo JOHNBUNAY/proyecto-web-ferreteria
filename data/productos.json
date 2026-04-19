@@ -4,41 +4,57 @@
         "nombre": "Panel EPS 50mm",
         "precio": 28.50,
         "categoria": "construccion",
-        "imagen": "https://via.placeholder.com/150/34495E/FFFFFF?text=Panel+EPS"
+        "imagen": "https://panelsandwich.ec/assets/libres/panel-sandwich-3-grecas.png"
     },
     {
         "id": 2,
         "nombre": "Perfil Metálico Estructural",
         "precio": 15.75,
         "categoria": "construccion",
-        "imagen": "https://via.placeholder.com/150/34495E/FFFFFF?text=Perfil+Metal"
+        "imagen": "https://png.pngtree.com/png-clipart/20231121/original/pngtree-metal-profile-metal-photo-png-image_13680690.png"
     },
     {
         "id": 3,
         "nombre": "Taladro Percutor 20V",
         "precio": 120.00,
         "categoria": "herramientas",
-        "imagen": "https://via.placeholder.com/150/E67E22/FFFFFF?text=Taladro"
+        "imagen": "https://tienda.demaco.ec/cache/large/product/2035/74426.png"
     },
     {
         "id": 4,
         "nombre": "Amoladora Angular",
         "precio": 85.00,
         "categoria": "herramientas",
-        "imagen": "https://via.placeholder.com/150/E67E22/FFFFFF?text=Amoladora"
+        "imagen": "https://png.pngtree.com/png-vector/20250213/ourmid/pngtree-angle-grinder-png-image_15449363.png"
     },
     {
         "id": 5,
         "nombre": "Tubo PVC Presión 1/2",
         "precio": 4.25,
         "categoria": "plomeria",
-        "imagen": "https://via.placeholder.com/150/7F8C8D/FFFFFF?text=Tubo+PVC"
+        "imagen": "https://tienda.demaco.ec/cache/large/product/5534/17176.png"
     },
     {
         "id": 6,
         "nombre": "Cemento Portland 50kg",
         "precio": 8.50,
         "categoria": "construccion",
-        "imagen": "https://via.placeholder.com/150/34495E/FFFFFF?text=Cemento"
+        "imagen": "https://png.pngtree.com/png-vector/20241109/ourmid/pngtree-cement-sacks-png-image_14330705.png"
+    }, 
+     {
+        "id": 6,
+        "nombre": "Lijadora Electrica",
+        "precio": 80.50,
+        "categoria": "herramientas",
+        "imagen": "https://png.pngtree.com/png-clipart/20250213/original/pngtree-sander-image-png-image_20425479.png"
+    },
+
+    {
+        "id": 6,
+        "nombre": "Compresores de Aire",
+        "precio": 130,
+        "categoria": "herramientas",
+        "imagen": "https://png.pngtree.com/png-vector/20241217/ourmid/pngtree-two-cylinder-air-compressor-for-industrial-use-injection-of-compressed-isolated-png-image_14801342.png"
     }
+
 ]

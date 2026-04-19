@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Construmetal</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Ferretería Construmetal</h1>
+        <a href="index.html" style="color: white; text-decoration: none; font-weight: bold;">← Volver a la tienda</a>
+    </header>
+
+    <main class="contenido-checkout">
+        <div class="contenedor-form">
+            <h2>Finalizar Compra</h2>
+            <form id="formCheckout">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" placeholder="Ej. Juan Pérez" required>
+
+                <label for="telefono">Teléfono (10 dígitos):</label>
+                <input type="text" id="telefono" placeholder="Ej. 0987654321" autocomplete="off" required>
+                <span id="errorTelefono" class="error-oculto">El teléfono debe tener exactamente 10 números.</span>
+
+                <label for="direccion">Dirección de Envío:</label>
+                <input type="text" id="direccion" placeholder="Ej. Avenida Principal y Calle Secundaria..." required>
+
+                <label for="metodoPago">Método de Pago:</label>
+                <select id="metodoPago" required>
+                    <option value="">Seleccione...</option>
+                    <option value="transferencia">Transferencia Bancaria</option>
+                    <option value="tarjeta">Tarjeta de Crédito / Débito</option>
+                </select>
+
+                <div id="campoTarjeta" class="oculto">
+                    <label for="numTarjeta">Número de Tarjeta:</label>
+                    <input type="text" id="numTarjeta" placeholder="0000 0000 0000 0000">
+                </div>
+
+                <button type="submit" id="btnConfirmar" class="boton-comprar" style="margin-top: 20px;">Confirmar Compra</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/checkout.js"></script>
+</body>
+</html>
